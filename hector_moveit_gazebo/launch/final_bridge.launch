@@ -18,7 +18,7 @@
     <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor_with_velodyne.launch">    
       <arg name="use_ground_truth_for_tf" value="$(arg use_ground_truth_for_tf)" />
       <arg name="x" value="0" />
-      <arg name="yaw" value="3.14"/>
+      <arg name="yaw" value="1.9"/>
     </include>
 
   <!-- The name of the parameter under which the URDF is loaded -->
